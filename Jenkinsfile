@@ -8,8 +8,8 @@ pipeline {
          stage('SCM') {
             steps {
                 git branch: 'master',
-                credentialsId: 'github-creds',
-                url: 'https://github.com/CloudWithRaghu/maven-hello-devops-general.git'
+                credentialsId: 'github',
+                url: 'https://github.com/BhargavHarshithMudragiri/maven-hello-devops-general.git'
            }
     }
         
